@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="SoJ-R5-YkR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after merging" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAf-gD-9sW">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="YAf-gD-9sW" firstAttribute="centerX" secondItem="7NL-bD-vzH" secondAttribute="centerX" type="default" id="BoC-rh-IiG"/>
                             <constraint firstItem="7NL-bD-vzH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="c91-lF-XkJ"/>
                             <constraint firstItem="7NL-bD-vzH" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="lQc-yD-sc9"/>
+                            <constraint firstAttribute="bottom" secondItem="YAf-gD-9sW" secondAttribute="bottom" constant="184" id="ur3-yY-JTZ"/>
                         </constraints>
                     </view>
                 </viewController>
